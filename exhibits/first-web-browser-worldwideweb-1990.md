@@ -1,21 +1,30 @@
-# First Web Browser - WorldWideWeb (1990)
+# id
+first-web-browser-worldwideweb-1990
 
-## What
+# title
+First Web Browser - WorldWideWeb (1990)
+
+# what
 The first web browser, created by Tim Berners-Lee at CERN. Originally called "WorldWideWeb" (later renamed Nexus), it was both a browser and editor, allowing users to create and edit web pages directly within the browser.
 
-## When
+# impact
+- Created the first implementation of the World Wide Web
+- Established the fundamental architecture still used today: URLs, HTTP, HTML
+- Demonstrated that hypertext could work on a global scale
+- Inspired the creation of Mosaic, Netscape, and all subsequent browsers
+- Made the web accessible to non-technical users through graphical interface
+- Laid the foundation for the modern internet economy and information society
+
+# when
 1990
 
-## Where
-CERN, Geneva, Switzerland
-
-## Language
-Objective-C (NeXTSTEP)
-
-## Category
+# category
 Integration
 
-## Code
+# language
+Objective-C (NeXTSTEP)
+
+# codeSnippet
 ```objective-c
 // Simplified representation of WorldWideWeb browser core functionality
 // Original code was written for NeXTSTEP platform
@@ -122,19 +131,8 @@ Integration
 @end
 ```
 
-## Source
+# sourceLink
 Based on historical documentation and Tim Berners-Lee's original specifications
 
-## Why This Matters
-WorldWideWeb wasn't just a browser - it was a complete web authoring environment. Berners-Lee envisioned the web as a read-write medium where anyone could create and edit content. This vision of the web as a collaborative space laid the foundation for wikis, blogs, and social media decades later.
-
-## Expert Explanation
+# expertExplanation
 Tim Berners-Lee created WorldWideWeb to solve a specific problem at CERN: scientists needed to share and link documents across different computer systems. His stroke of genius was combining hypertext (clickable links), a universal addressing system (URLs), and a simple markup language (HTML) into a cohesive system. The browser could both display and edit web pages, making content creation as important as consumption. This dual functionality reflected Berners-Lee's vision of the web as a universal information space where everyone could contribute.
-
-## The Impact
-- Created the first implementation of the World Wide Web
-- Established the fundamental architecture still used today: URLs, HTTP, HTML
-- Demonstrated that hypertext could work on a global scale
-- Inspired the creation of Mosaic, Netscape, and all subsequent browsers
-- Made the web accessible to non-technical users through graphical interface
-- Laid the foundation for the modern internet economy and information society

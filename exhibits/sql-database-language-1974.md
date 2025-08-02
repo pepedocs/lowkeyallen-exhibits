@@ -1,21 +1,30 @@
-# SQL Database Language (1974)
+# id
+sql-database-language-1974
 
-## What
+# title
+SQL Database Language (1974)
+
+# what
 The Structured Query Language (SQL), originally developed by Donald Chamberlin and Raymond Boyce at IBM as part of the System R relational database project. SQL provided the first practical way to query relational databases using English-like statements.
 
-## When
+# impact
+- Created the modern database industry worth hundreds of billions of dollars
+- Made data analysis accessible to non-programmers through declarative syntax
+- Established relational databases as the dominant data storage paradigm
+- Enabled the development of business intelligence and analytics tools
+- Influenced the design of modern query languages like SPARQL and GraphQL
+- Remains the primary interface for most enterprise data systems 40+ years later
+
+# when
 1974
 
-## Where
-IBM Research, San Jose, California
-
-## Language
-SQL
-
-## Category
+# category
 Integration
 
-## Code
+# language
+SQL
+
+# codeSnippet
 ```sql
 -- Original IBM System R SQL examples
 -- These demonstrate the revolutionary concepts SQL introduced
@@ -148,19 +157,8 @@ FROM EMPLOYEES
 ORDER BY DEPARTMENT, SALARY DESC;
 ```
 
-## Source
+# sourceLink
 Based on "System R: Relational Approach to Database Management" by Astrahan et al.
 
-## Why This Matters
-SQL transformed databases from complex, programmer-only tools into accessible systems that business users could query directly. By providing a declarative language that described what you wanted rather than how to get it, SQL made database access democratic and spawned the multi-billion dollar database industry.
-
-## Expert Explanation
+# expertExplanation
 SQL's revolutionary insight was treating data queries as mathematical set operations rather than procedural instructions. Instead of writing complex loops and navigation code, users could simply describe their desired result set using English-like syntax. The database engine would figure out the optimal way to retrieve the data, using techniques like query optimization and indexing. This abstraction layer made databases far more accessible while enabling sophisticated optimizations that individual programmers couldn't achieve.
-
-## The Impact
-- Created the modern database industry worth hundreds of billions of dollars
-- Made data analysis accessible to non-programmers through declarative syntax
-- Established relational databases as the dominant data storage paradigm
-- Enabled the development of business intelligence and analytics tools
-- Influenced the design of modern query languages like SPARQL and GraphQL
-- Remains the primary interface for most enterprise data systems 40+ years later

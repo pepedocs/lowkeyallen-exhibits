@@ -1,21 +1,30 @@
-# RSA Encryption Algorithm (1977)
+# id
+rsa-encryption-algorithm-1977
 
-## What
+# title
+Example usage
+
+# what
 The RSA public-key cryptography algorithm, developed by Ron Rivest, Adi Shamir, and Leonard Adleman at MIT. This breakthrough enabled secure communication between parties who had never met, laying the foundation for modern internet security.
 
-## When
+# impact
+- Enabled secure e-commerce and online banking
+- Made possible the secure transmission of credit card numbers over the internet
+- Established the foundation for digital signatures and certificates
+- Created the PKI (Public Key Infrastructure) used throughout the internet
+- Influenced the development of other public-key cryptosystems like ECC
+- Remains a cornerstone of internet security protocols like TLS/SSL
+
+# when
 1977
 
-## Where
-MIT, Cambridge, Massachusetts
-
-## Language
-Mathematics/Pseudocode
-
-## Category
+# category
 Security
 
-## Code
+# language
+Mathematics/Pseudocode
+
+# codeSnippet
 ```python
 import random
 import math
@@ -154,7 +163,6 @@ class RSA:
         verified_message = pow(signature, self.e, self.n)
         return verified_message == message_int
 
-# Example usage
 if __name__ == "__main__":
     # Generate RSA key pair
     rsa = RSA(key_size=512)  # Small key for demo
@@ -175,19 +183,8 @@ if __name__ == "__main__":
     print(f"\nSignature valid: {is_valid}")
 ```
 
-## Source
+# sourceLink
 Based on "A Method for Obtaining Digital Signatures and Public-Key Cryptosystems" by Rivest, Shamir, and Adleman (1978)
 
-## Why This Matters
-RSA solved the key distribution problem that had plagued cryptography for centuries. Before RSA, two parties needed to share a secret key through a secure channel. RSA made it possible for anyone to send encrypted messages to anyone else using only publicly available information.
-
-## Expert Explanation
+# expertExplanation
 RSA's security relies on the mathematical fact that it's easy to multiply two large prime numbers together, but extremely difficult to factor the result back into its prime components. The algorithm uses modular exponentiation: encryption raises the message to the power e modulo n, while decryption raises the result to the power d modulo n. The magic is that e and d are mathematically related through Euler's totient function, but finding d from e requires factoring n - something that would take thousands of years with current computers for sufficiently large keys.
-
-## The Impact
-- Enabled secure e-commerce and online banking
-- Made possible the secure transmission of credit card numbers over the internet
-- Established the foundation for digital signatures and certificates
-- Created the PKI (Public Key Infrastructure) used throughout the internet
-- Influenced the development of other public-key cryptosystems like ECC
-- Remains a cornerstone of internet security protocols like TLS/SSL

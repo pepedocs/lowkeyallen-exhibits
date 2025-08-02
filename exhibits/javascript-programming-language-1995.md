@@ -1,21 +1,30 @@
-# JavaScript Programming Language (1995)
+# id
+javascript-programming-language-1995
 
-## What
+# title
+JavaScript Programming Language (1995)
+
+# what
 The JavaScript programming language, created by Brendan Eich at Netscape in just 10 days. Originally designed to make web pages interactive, JavaScript became one of the world's most widely used programming languages and the foundation of modern web development.
 
-## When
+# impact
+- Made web pages interactive and dynamic for the first time
+- Became the only programming language supported by all web browsers
+- Evolved from simple scripts to powering complex web applications
+- Enabled the rise of AJAX, single-page applications, and modern web frameworks
+- Expanded beyond browsers to servers (Node.js), mobile apps, and desktop applications
+- Remains the most widely used programming language globally
+
+# when
 May 1995
 
-## Where
-Netscape Communications, Mountain View, California
-
-## Language
-JavaScript
-
-## Category
+# category
 Historical
 
-## Code
+# language
+JavaScript
+
+# codeSnippet
 ```javascript
 // The original JavaScript concepts that changed web development forever
 // These examples show the revolutionary features Brendan Eich created in 10 days
@@ -239,19 +248,8 @@ if (document.readyState === "loading") {
 }
 ```
 
-## Source
+# sourceLink
 Based on Netscape Navigator source code and Brendan Eich's original design documents
 
-## Why This Matters
-JavaScript was created under extreme time pressure to compete with Java and Visual Basic, but its unique combination of functional programming features, dynamic typing, and DOM manipulation created something entirely new. Despite its hasty creation and numerous quirks, JavaScript became the lingua franca of the web and eventually the most widely used programming language in the world.
-
-## Expert Explanation
+# expertExplanation
 Brendan Eich drew inspiration from Scheme (first-class functions, closures), Self (prototype-based inheritance), and Java (C-like syntax) to create JavaScript in just 10 days in May 1995. The time pressure led to some questionable design decisions (like type coercion and the confusing 'this' binding), but also produced surprisingly elegant features like closures and first-class functions that were rare in mainstream languages at the time. JavaScript's ability to modify itself at runtime and manipulate the DOM made the web programmable for the first time.
-
-## The Impact
-- Made web pages interactive and dynamic for the first time
-- Became the only programming language supported by all web browsers
-- Evolved from simple scripts to powering complex web applications
-- Enabled the rise of AJAX, single-page applications, and modern web frameworks
-- Expanded beyond browsers to servers (Node.js), mobile apps, and desktop applications
-- Remains the most widely used programming language globally

@@ -1,21 +1,30 @@
-# Stuxnet Worm - Cyberwarfare Weapon (2010)
+# id
+stuxnet-cyberwarfare-weapon-2010
 
-## What
+# title
+Stuxnet Worm - Cyberwarfare Weapon (2010)
+
+# what
 The Stuxnet worm, discovered in 2010, was the first known cyber weapon designed to cause physical damage to industrial systems. It specifically targeted Iranian nuclear centrifuges, demonstrating that software could cross the digital-physical divide to cause real-world destruction.
 
-## When
+# impact
+- Demonstrated that cyberweapons could cause physical destruction
+- Destroyed approximately 1,000 Iranian nuclear centrifuges
+- Established cyber warfare as a new domain of international conflict
+- Led to massive investments in critical infrastructure cybersecurity
+- Inspired countless imitators and raised the specter of cyber terrorism
+- Changed international law discussions to include cyber operations
+
+# when
 2010 (discovered)
 
-## Where
-Developed by US and Israeli intelligence agencies
-
-## Language
-C/C++ with Windows rootkit techniques
-
-## Category
+# category
 Security
 
-## Code
+# language
+C/C++ with Windows rootkit techniques
+
+# codeSnippet
 ```c
 // Simplified representation of Stuxnet's PLC targeting logic
 // Actual malware was incredibly sophisticated and modular
@@ -126,19 +135,8 @@ void install_rootkit() {
 }
 ```
 
-## Source
+# sourceLink
 Analysis based on reverse engineering reports from security researchers
 
-## Why This Matters
-Stuxnet crossed a digital Rubicon - it was the first malware designed to cause physical destruction rather than steal data or disrupt services. It proved that cyber attacks could damage critical infrastructure, opening a new domain of warfare and raising profound questions about the rules of engagement in cyberspace.
-
-## Expert Explanation
+# expertExplanation
 Stuxnet was a marvel of engineering that required intimate knowledge of both Windows systems and industrial control systems. It used four zero-day exploits, stolen digital certificates, and sophisticated rootkit techniques to remain hidden. But its most impressive feature was its surgical precision - it only activated when it detected the exact configuration of centrifuges used at Iran's Natanz nuclear facility. The malware would speed up the centrifuges to damaging levels while feeding false data to monitoring systems, making operators believe everything was normal even as their equipment was being destroyed.
-
-## The Impact
-- Demonstrated that cyberweapons could cause physical destruction
-- Destroyed approximately 1,000 Iranian nuclear centrifuges
-- Established cyber warfare as a new domain of international conflict
-- Led to massive investments in critical infrastructure cybersecurity
-- Inspired countless imitators and raised the specter of cyber terrorism
-- Changed international law discussions to include cyber operations

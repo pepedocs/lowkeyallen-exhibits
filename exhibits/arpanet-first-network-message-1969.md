@@ -1,21 +1,30 @@
-# ARPANET First Network Message (1969)
+# id
+arpanet-first-network-message-1969
 
-## What
+# title
+ARPANET First Network Message (1969)
+
+# what
 The first message sent over ARPANET, the predecessor to the internet, transmitted between UCLA and Stanford Research Institute. The intended message was "LOGIN" but the system crashed after "LO", making the first internet message an unintentional "LO".
 
-## When
+# impact
+- Established the first successful packet-switched network
+- Demonstrated the feasibility of distributed networking between remote computers
+- Created the technical foundation for the modern internet
+- Proved that reliable communication was possible over unreliable connections
+- Inspired the development of TCP/IP and other internet protocols
+- Made possible the global connected world we live in today
+
+# when
 October 29, 1969, 10:30 PM
 
-## Where
-UCLA and Stanford Research Institute, California
-
-## Language
-Assembly/Network Protocol
-
-## Category
+# category
 Integration
 
-## Code
+# language
+Assembly/Network Protocol
+
+# codeSnippet
 ```assembly
 ; Simplified representation of the first ARPANET message transmission
 ; Original code was specific to the Sigma 7 and SDS 940 computers
@@ -156,19 +165,8 @@ SYSTEM_CRASH        EQU 1
 ; "22:35 - System restored, LOGIN successful on retry"
 ```
 
-## Source
+# sourceLink
 Based on historical accounts from Leonard Kleinrock (UCLA) and Bill Duvall (SRI)
 
-## Why This Matters
-This seemingly failed message transmission was actually a perfect demonstration of the internet's core principles: packet switching, store-and-forward networking, and fault tolerance. Even though the first attempt crashed, the system was resilient enough to recover and complete the connection - principles that still govern internet communications today.
-
-## Expert Explanation
+# expertExplanation
 The first ARPANET message used Interface Message Processors (IMPs) - the predecessors to modern routers. These specialized computers handled the network protocol while host computers focused on applications. The crash after "LO" wasn't a failure of the network design but of the host software, demonstrating an important principle: network reliability shouldn't depend on perfect host behavior. The successful retry an hour later proved that the fundamental architecture was sound, establishing patterns of error recovery and retry logic that became standard in all network protocols.
-
-## The Impact
-- Established the first successful packet-switched network
-- Demonstrated the feasibility of distributed networking between remote computers
-- Created the technical foundation for the modern internet
-- Proved that reliable communication was possible over unreliable connections
-- Inspired the development of TCP/IP and other internet protocols
-- Made possible the global connected world we live in today

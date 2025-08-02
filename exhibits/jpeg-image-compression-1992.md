@@ -1,21 +1,30 @@
-# JPEG Image Compression (1992)
+# id
+jpeg-image-compression-1992
 
-## What
+# title
+JPEG Image Compression (1992)
+
+# what
 The JPEG (Joint Photographic Experts Group) image compression algorithm that revolutionized digital photography and web images. JPEG uses lossy compression based on human visual perception to reduce image file sizes by 90% or more while maintaining acceptable quality.
 
-## When
+# impact
+- Made digital photography mainstream by solving the storage problem
+- Enabled the sharing of images over early internet connections
+- Became the dominant image format for photography and web images
+- Influenced the development of other lossy compression algorithms
+- Made possible the rise of social media platforms based on photo sharing
+- Remains the most widely used image format 30+ years after its creation
+
+# when
 1992
 
-## Where
-Joint international standards committee
-
-## Language
-C/Mathematical transforms
-
-## Category
+# category
 Numeric
 
-## Code
+# language
+C/Mathematical transforms
+
+# codeSnippet
 ```c
 // Simplified JPEG compression algorithm implementation
 #include <math.h>
@@ -277,19 +286,8 @@ int compress_jpeg(unsigned char *image_data,
 }
 ```
 
-## Source
+# sourceLink
 Based on ISO/IEC 10918-1 JPEG standard and original research papers
 
-## Why This Matters
-JPEG made digital photography practical by solving the storage problem. A single uncompressed digital photo could take up several megabytes, making them impractical to store or transmit. JPEG's 10:1 compression ratio meant cameras could store hundreds of photos instead of dozens, and images could be shared over slow internet connections.
-
-## Expert Explanation
+# expertExplanation
 JPEG's brilliance lies in exploiting human visual perception. The DCT transform converts image blocks into frequency components, and the quantization step discards high-frequency details that humans can't easily see. The algorithm compresses color information more aggressively than brightness information because human eyes are more sensitive to brightness changes. The psychovisual model built into JPEG's quantization tables represents decades of research into how humans perceive images, making it possible to throw away large amounts of data while maintaining perceived quality.
-
-## The Impact
-- Made digital photography mainstream by solving the storage problem
-- Enabled the sharing of images over early internet connections
-- Became the dominant image format for photography and web images
-- Influenced the development of other lossy compression algorithms
-- Made possible the rise of social media platforms based on photo sharing
-- Remains the most widely used image format 30+ years after its creation

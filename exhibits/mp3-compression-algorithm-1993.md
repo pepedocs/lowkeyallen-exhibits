@@ -1,21 +1,30 @@
-# MP3 Compression Algorithm (1993)
+# id
+mp3-compression-algorithm-1993
 
-## What
+# title
+MP3 Compression Algorithm (1993)
+
+# what
 The MP3 audio compression algorithm, developed by the Fraunhofer Institute in Germany. This revolutionary codec could compress CD-quality audio by a factor of 10-12 while maintaining acceptable quality, making digital music distribution practical over early internet connections.
 
-## When
+# impact
+- Enabled the digital music revolution and peer-to-peer file sharing
+- Destroyed the traditional music industry distribution model
+- Led to the creation of portable MP3 players and eventually the iPod
+- Established the foundation for streaming music services
+- Created the concept of "good enough" digital media quality
+- Influenced the development of numerous audio and video compression standards
+
+# when
 1993
 
-## Where
-Fraunhofer Institute, Erlangen, Germany
-
-## Language
-C
-
-## Category
+# category
 Numeric
 
-## Code
+# language
+C
+
+# codeSnippet
 ```c
 // Simplified MP3 encoding algorithm core concepts
 #include <math.h>
@@ -130,19 +139,8 @@ int encode_mp3_frame(float *pcm_audio, unsigned char *mp3_output) {
 }
 ```
 
-## Source
+# sourceLink
 Based on ISO/IEC 11172-3 standard and Fraunhofer research papers
 
-## Why This Matters
-MP3 didn't just compress audio - it revolutionized how music was distributed and consumed. By exploiting the limitations of human hearing, MP3 made it practical to share music over dial-up internet connections, enabling Napster, iTunes, and the entire digital music revolution.
-
-## Expert Explanation
+# expertExplanation
 The genius of MP3 lies in its psychoacoustic model, which identifies which parts of an audio signal humans can't hear and discards them. The algorithm uses the masking effect - where loud sounds make nearby quiet sounds inaudible - to remove "perceptually irrelevant" information. Combined with sophisticated mathematical transforms (MDCT) and entropy coding (Huffman), MP3 achieves remarkable compression ratios while maintaining acceptable quality. This "perceptual coding" approach influenced everything from JPEG image compression to modern video codecs.
-
-## The Impact
-- Enabled the digital music revolution and peer-to-peer file sharing
-- Destroyed the traditional music industry distribution model
-- Led to the creation of portable MP3 players and eventually the iPod
-- Established the foundation for streaming music services
-- Created the concept of "good enough" digital media quality
-- Influenced the development of numerous audio and video compression standards

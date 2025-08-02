@@ -1,21 +1,30 @@
-# First Email Sent (1971)
+# id
+first-email-sent-1971
 
-## What
+# title
+First Email Sent (1971)
+
+# what
 Ray Tomlinson sent the first network email between two computers on ARPANET, using the @ symbol to separate the user name from the host name. This simple innovation created the addressing system still used in email today.
 
-## When
+# impact
+- Created the @ symbol email addressing system used by billions daily
+- Established the foundation for modern digital communication
+- Enabled the first form of asynchronous networked messaging
+- Led to the development of email protocols like SMTP, POP, and IMAP
+- Transformed business communication and personal correspondence globally
+- Made possible the later development of instant messaging and social media
+
+# when
 1971
 
-## Where
-BBN Technologies, Cambridge, Massachusetts
-
-## Language
-Assembly/SNDMSG Program
-
-## Category
+# category
 Integration
 
-## Code
+# language
+Assembly/SNDMSG Program
+
+# codeSnippet
 ```assembly
 ; Simplified representation of SNDMSG modifications for network email
 ; Original code was much more complex and system-specific
@@ -67,19 +76,8 @@ FOUND_AT:
     RET
 ```
 
-## Source
+# sourceLink
 Based on historical accounts from Ray Tomlinson and BBN Technologies archives
 
-## Why This Matters
-Tomlinson's choice of the @ symbol was genius in its simplicity. He needed a character that wouldn't appear in usernames but was available on all keyboards. The @ symbol (meaning "at") was perfect - it clearly indicated "user at host" while being universally available but rarely used in computing contexts.
-
-## Expert Explanation
+# expertExplanation
 Ray Tomlinson modified the existing SNDMSG program to work across ARPANET nodes. His innovation was the addressing scheme: "user@host" which allowed messages to be sent between different computers on the network. The first email was likely something mundane like "QWERTYUIOP" - Tomlinson was testing the system, not trying to make history. But this simple test message established the fundamental architecture of email: store-and-forward messaging with universal addressing that could scale across any network.
-
-## The Impact
-- Created the @ symbol email addressing system used by billions daily
-- Established the foundation for modern digital communication
-- Enabled the first form of asynchronous networked messaging
-- Led to the development of email protocols like SMTP, POP, and IMAP
-- Transformed business communication and personal correspondence globally
-- Made possible the later development of instant messaging and social media

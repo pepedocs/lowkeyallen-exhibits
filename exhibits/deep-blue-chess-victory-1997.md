@@ -1,21 +1,30 @@
-# Deep Blue Chess Victory (1997)
+# id
+deep-blue-chess-victory-1997
 
-## What
+# title
+Deep Blue Chess Victory (1997)
+
+# what
 The chess-playing algorithm that defeated world champion Garry Kasparov in 1997, marking the first time a computer defeated a reigning world chess champion in a match. Deep Blue's victory represented a milestone in artificial intelligence and parallel computing.
 
-## When
+# impact
+- Marked a turning point in public perception of artificial intelligence
+- Demonstrated the power of specialized parallel computing architectures
+- Inspired advances in game-playing AI that led to modern systems like AlphaGo
+- Showed that AI could excel in domains requiring strategic thinking
+- Led to IBM's focus on AI research, eventually creating Watson
+- Influenced the development of specialized AI hardware and algorithms
+
+# when
 May 11, 1997
 
-## Where
-IBM Research, New York
-
-## Language
-C/Assembly with custom hardware
-
-## Category
+# category
 Numeric
 
-## Code
+# language
+C/Assembly with custom hardware
+
+# codeSnippet
 ```c
 // Simplified representation of Deep Blue's evaluation function
 // Actual code was highly optimized and proprietary
@@ -100,19 +109,8 @@ int chess_evaluation(Position *pos) {
 }
 ```
 
-## Source
+# sourceLink
 Based on published research papers and IBM's technical descriptions
 
-## Why This Matters
-Deep Blue's victory wasn't just about chess - it demonstrated that specialized parallel computing could tackle problems requiring both raw computational power and sophisticated heuristics. The match showed that AI could excel in domains previously thought to require pure human intuition and creativity.
-
-## Expert Explanation
+# expertExplanation
 Deep Blue combined massive parallel processing (200 million positions per second) with deep chess knowledge encoded by grandmasters. Unlike pure brute-force search, it used sophisticated evaluation functions, opening books, and endgame databases. The system's 32 chess-specific processors worked in parallel, with custom chips designed specifically for chess move generation and evaluation. Kasparov's defeat shocked the world because chess was considered the ultimate test of strategic thinking - if a computer could master chess, what else could it master?
-
-## The Impact
-- Marked a turning point in public perception of artificial intelligence
-- Demonstrated the power of specialized parallel computing architectures
-- Inspired advances in game-playing AI that led to modern systems like AlphaGo
-- Showed that AI could excel in domains requiring strategic thinking
-- Led to IBM's focus on AI research, eventually creating Watson
-- Influenced the development of specialized AI hardware and algorithms

@@ -1,21 +1,30 @@
-# TCP/IP Internet Protocol Suite (1973)
+# id
+tcp-ip-internet-protocol-suite-1973
 
-## What
+# title
+TCP/IP Internet Protocol Suite (1973)
+
+# what
 The Transmission Control Protocol/Internet Protocol (TCP/IP), developed by Vint Cerf and Bob Kahn. This protocol suite became the foundation of the modern internet, enabling different networks to interconnect and communicate regardless of their underlying hardware.
 
-## When
+# impact
+- Created the technical foundation for the modern internet
+- Enabled global connectivity between different types of networks
+- Established the end-to-end principle that became fundamental to internet design
+- Made possible the World Wide Web, email, and all internet applications
+- Influenced the design of virtually all modern networking protocols
+- Remains the core protocol suite of the internet after 50+ years
+
+# when
 1973-1974
 
-## Where
-DARPA and various research institutions
-
-## Language
-C/Assembly (protocol specifications)
-
-## Category
+# category
 Integration
 
-## Code
+# language
+C/Assembly (protocol specifications)
+
+# codeSnippet
 ```c
 // Simplified TCP/IP protocol implementation concepts
 // Based on the original RFC specifications by Cerf and Kahn
@@ -264,19 +273,8 @@ void send_icmp_ping(unsigned int dest_ip, unsigned short id, unsigned short sequ
 }
 ```
 
-## Source
+# sourceLink
 Based on RFC 793 (TCP), RFC 791 (IP), and original DARPA research papers
 
-## Why This Matters
-TCP/IP solved the fundamental problem of interconnecting different types of networks. Before TCP/IP, each network was an island - ARPANET couldn't talk to packet radio networks or satellite networks. TCP/IP created a universal language that allowed any network to join the internet, enabling the global connectivity we take for granted today.
-
-## Expert Explanation
+# expertExplanation
 Vint Cerf and Bob Kahn's breakthrough was the concept of internetworking - connecting networks of networks. They designed IP to handle routing packets across multiple networks with different technologies, while TCP provided reliable, ordered delivery on top of IP's best-effort service. The layered architecture meant that applications didn't need to worry about the underlying network technology - whether data traveled over Ethernet, wireless, or satellite links was transparent. This abstraction enabled the internet to scale from a few dozen hosts to billions of connected devices.
-
-## The Impact
-- Created the technical foundation for the modern internet
-- Enabled global connectivity between different types of networks
-- Established the end-to-end principle that became fundamental to internet design
-- Made possible the World Wide Web, email, and all internet applications
-- Influenced the design of virtually all modern networking protocols
-- Remains the core protocol suite of the internet after 50+ years
