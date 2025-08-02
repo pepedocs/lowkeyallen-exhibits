@@ -14,7 +14,7 @@ This simple HTML page launched the information age, transforming how humans shar
 1991
 
 # category
-Web Development
+Software & Computing
 
 # language
 HTML

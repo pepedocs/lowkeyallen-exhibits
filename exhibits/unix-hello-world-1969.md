@@ -14,7 +14,7 @@ This early version helped establish the tradition of simple test programs and de
 1969
 
 # category
-System Programming
+Software & Computing
 
 # language
 C
