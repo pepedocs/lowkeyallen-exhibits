@@ -1,0 +1,16 @@
+{
+  "exhibits": [
+    "heartbleed-openssl",
+    "apollo-11-1201-alarm",
+    "ariane-5-explosion",
+    "therac-25-race-condition",
+    "mars-climate-orbiter",
+    "hello-world-k-r",
+    "y2k-bug",
+    "bitcoin-genesis-block",
+    "morris-worm",
+    "unix-epoch-2038",
+    "first-computer-bug",
+    "equifax-breach"
+  ]
+}
