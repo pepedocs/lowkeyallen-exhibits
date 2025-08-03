@@ -54,6 +54,42 @@ function fixExhibit(filePath) {
         }
     }
     
+    // Fix language field - split multiple languages into separate tags
+    const languageMatch = content.match(/# language\s*\n(.+?)(?=\n\n|\n#|$)/s);
+    if (languageMatch) {
+        const languageContent = languageMatch[1].trim();
+        
+        // Check if there are multiple languages (separated by common delimiters)
+        const delimiters = [' and ', '/', ' & ', ', ', ' + '];
+        let foundDelimiter = false;
+        let languages = [languageContent];
+        
+        for (const delimiter of delimiters) {
+            if (languageContent.includes(delimiter)) {
+                languages = languageContent.split(delimiter).map(lang => lang.trim());
+                foundDelimiter = true;
+                break;
+            }
+        }
+        
+        // If we found multiple languages, create separate tags
+        if (foundDelimiter && languages.length > 1) {
+            // Filter out empty strings and normalize language names
+            languages = languages.filter(lang => lang.length > 0).map(lang => {
+                // Clean up language names
+                return lang.replace(/^(and|&)\s+/i, '').trim();
+            });
+            
+            if (languages.length > 1) {
+                // Create multiple language tags
+                const newLanguageSection = languages.map(lang => `# language\n${lang}`).join('\n\n');
+                content = content.replace(languageMatch[0], newLanguageSection);
+                changed = true;
+                console.log(`  - Split languages: "${languageContent}" → ${languages.length} separate tags: ${languages.join(', ')}`);
+            }
+        }
+    }
+    
     if (changed) {
         fs.writeFileSync(filePath, content);
         console.log(`  ✅ Updated: ${filePath}`);
