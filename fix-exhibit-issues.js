@@ -12,11 +12,14 @@ function fixExhibit(filePath) {
     let content = fs.readFileSync(filePath, 'utf8');
     let changed = false;
     
-    // Fix categories (using single # format)
+    // Fix categories (using single # format) - ONLY use user-approved categories
+    // User's ACTUAL approved categories: Mission-Critical, Cyber Security, Educational, Software & Computing
     const categoryFixes = [
-        { from: /# category\s*\nHistorical/g, to: '# category\nComputing History' },
-        { from: /# category\s*\nNumeric/g, to: '# category\nComputing History' },
+        { from: /# category\s*\nHistorical/g, to: '# category\nSoftware & Computing' },
+        { from: /# category\s*\nNumeric/g, to: '# category\nSoftware & Computing' },
         { from: /# category\s*\nSecurity$/gm, to: '# category\nCyber Security' },
+        { from: /# category\s*\nComputing History/g, to: '# category\nSoftware & Computing' },
+        { from: /# category\s*\nIntegration/g, to: '# category\nSoftware & Computing' },
     ];
     
     categoryFixes.forEach(fix => {

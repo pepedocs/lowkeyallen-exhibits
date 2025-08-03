@@ -19,7 +19,7 @@ The Git distributed version control system, created by Linus Torvalds to manage 
 2005
 
 # category
-Integration
+Software & Computing
 
 # language
 C

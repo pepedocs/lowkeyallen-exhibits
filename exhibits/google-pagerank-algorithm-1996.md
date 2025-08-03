@@ -18,7 +18,7 @@ The original PageRank algorithm developed by Larry Page and Sergey Brin at Stanf
 1996
 
 # category
-Integration
+Software & Computing
 
 # language
 Mathematical

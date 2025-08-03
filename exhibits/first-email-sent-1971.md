@@ -19,7 +19,7 @@ Ray Tomlinson sent the first network email between two computers on ARPANET, usi
 1971
 
 # category
-Integration
+Software & Computing
 
 # language
 Assembly

@@ -19,7 +19,7 @@ The Structured Query Language (SQL), originally developed by Donald Chamberlin a
 1974
 
 # category
-Integration
+Software & Computing
 
 # language
 SQL

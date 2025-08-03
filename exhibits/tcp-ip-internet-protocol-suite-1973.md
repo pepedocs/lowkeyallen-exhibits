@@ -19,7 +19,7 @@ The Transmission Control Protocol/Internet Protocol (TCP/IP), developed by Vint 
 1973
 
 # category
-Integration
+Software & Computing
 
 # language
 C
