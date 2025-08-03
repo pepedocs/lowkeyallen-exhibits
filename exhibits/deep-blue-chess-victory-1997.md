@@ -19,7 +19,7 @@ The chess-playing algorithm that defeated world champion Garry Kasparov in 1997,
 1997
 
 # category
-Computing History
+Software & Computing
 
 # language
 C

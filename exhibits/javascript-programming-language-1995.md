@@ -19,7 +19,7 @@ The JavaScript programming language, created by Brendan Eich at Netscape in just
 1995
 
 # category
-Computing History
+Software & Computing
 
 # language
 JavaScript

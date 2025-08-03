@@ -19,7 +19,7 @@ The Unix operating system, created by Ken Thompson and Dennis Ritchie at Bell La
 1969
 
 # category
-Computing History
+Software & Computing
 
 # language
 Assembly

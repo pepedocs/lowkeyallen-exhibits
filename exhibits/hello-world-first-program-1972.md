@@ -14,7 +14,7 @@ Became the universal first program for learning any programming language, making
 1972
 
 # category
-Computing History
+Software & Computing
 
 # language
 C

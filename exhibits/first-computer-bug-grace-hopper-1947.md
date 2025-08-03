@@ -18,7 +18,7 @@ The first recorded computer "bug" - literally a moth trapped in Harvard's Mark I
 1947
 
 # category
-Computing History
+Software & Computing
 
 # language
 Hardware

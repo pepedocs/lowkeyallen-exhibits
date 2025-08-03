@@ -19,7 +19,7 @@ The JPEG (Joint Photographic Experts Group) image compression algorithm that rev
 1992
 
 # category
-Computing History
+Software & Computing
 
 # language
 C

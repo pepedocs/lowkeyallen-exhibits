@@ -19,7 +19,7 @@ The MP3 audio compression algorithm, developed by the Fraunhofer Institute in Ge
 1993
 
 # category
-Computing History
+Software & Computing
 
 # language
 C
