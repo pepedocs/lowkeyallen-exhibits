@@ -2,7 +2,7 @@
 first-computer-bug-grace-hopper-1947
 
 # title
-First Computer Bug - Grace Hopper's Moth (1947)
+First Computer Bug - Grace Hopper's Moth
 
 # what
 The first recorded computer "bug" - literally a moth trapped in Harvard's Mark II computer, found by Grace Hopper's team. This event gave us the term "debugging" and represented the intersection of physical hardware failures and software problems.
@@ -15,13 +15,13 @@ The first recorded computer "bug" - literally a moth trapped in Harvard's Mark I
 - Created one of computing's most enduring origin stories
 
 # when
-September 9, 1947
+1947
 
 # category
-Historical
+Computing History
 
 # language
-Hardware/Logbook Entry
+Hardware
 
 # codeSnippet
 ```

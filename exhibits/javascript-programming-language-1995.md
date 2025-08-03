@@ -2,7 +2,7 @@
 javascript-programming-language-1995
 
 # title
-JavaScript Programming Language (1995)
+JavaScript Programming Language
 
 # what
 The JavaScript programming language, created by Brendan Eich at Netscape in just 10 days. Originally designed to make web pages interactive, JavaScript became one of the world's most widely used programming languages and the foundation of modern web development.
@@ -16,10 +16,10 @@ The JavaScript programming language, created by Brendan Eich at Netscape in just
 - Remains the most widely used programming language globally
 
 # when
-May 1995
+1995
 
 # category
-Historical
+Computing History
 
 # language
 JavaScript

@@ -2,7 +2,7 @@
 git-version-control-system-2005
 
 # title
-Git Version Control System (2005)
+Git Version Control System
 
 # what
 The Git distributed version control system, created by Linus Torvalds to manage Linux kernel development. Git revolutionized software development by making branching, merging, and distributed collaboration practical and efficient.
@@ -16,13 +16,13 @@ The Git distributed version control system, created by Linus Torvalds to manage 
 - Enabled new development practices like continuous integration and GitOps
 
 # when
-April 2005
+2005
 
 # category
 Integration
 
 # language
-C with shell scripts
+C
 
 # codeSnippet
 ```c

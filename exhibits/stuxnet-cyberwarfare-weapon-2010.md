@@ -2,7 +2,7 @@
 stuxnet-cyberwarfare-weapon-2010
 
 # title
-Stuxnet Worm - Cyberwarfare Weapon (2010)
+Stuxnet Worm - Cyberwarfare Weapon
 
 # what
 The Stuxnet worm, discovered in 2010, was the first known cyber weapon designed to cause physical damage to industrial systems. It specifically targeted Iranian nuclear centrifuges, demonstrating that software could cross the digital-physical divide to cause real-world destruction.
@@ -16,13 +16,13 @@ The Stuxnet worm, discovered in 2010, was the first known cyber weapon designed 
 - Changed international law discussions to include cyber operations
 
 # when
-2010 (discovered)
+2010
 
 # category
-Security
+Cyber Security
 
 # language
-C/C++ with Windows rootkit techniques
+C
 
 # codeSnippet
 ```c

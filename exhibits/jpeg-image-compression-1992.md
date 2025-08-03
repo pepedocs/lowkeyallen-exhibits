@@ -2,7 +2,7 @@
 jpeg-image-compression-1992
 
 # title
-JPEG Image Compression (1992)
+JPEG Image Compression
 
 # what
 The JPEG (Joint Photographic Experts Group) image compression algorithm that revolutionized digital photography and web images. JPEG uses lossy compression based on human visual perception to reduce image file sizes by 90% or more while maintaining acceptable quality.
@@ -19,10 +19,10 @@ The JPEG (Joint Photographic Experts Group) image compression algorithm that rev
 1992
 
 # category
-Numeric
+Computing History
 
 # language
-C/Mathematical transforms
+C
 
 # codeSnippet
 ```c

@@ -2,7 +2,7 @@
 deep-blue-chess-victory-1997
 
 # title
-Deep Blue Chess Victory (1997)
+Deep Blue Chess Victory
 
 # what
 The chess-playing algorithm that defeated world champion Garry Kasparov in 1997, marking the first time a computer defeated a reigning world chess champion in a match. Deep Blue's victory represented a milestone in artificial intelligence and parallel computing.
@@ -16,13 +16,13 @@ The chess-playing algorithm that defeated world champion Garry Kasparov in 1997,
 - Influenced the development of specialized AI hardware and algorithms
 
 # when
-May 11, 1997
+1997
 
 # category
-Numeric
+Computing History
 
 # language
-C/Assembly with custom hardware
+C
 
 # codeSnippet
 ```c

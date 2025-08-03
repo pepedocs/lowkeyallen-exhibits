@@ -2,7 +2,7 @@
 unix-operating-system-1969
 
 # title
-Unix Operating System (1969)
+Unix Operating System
 
 # what
 The Unix operating system, created by Ken Thompson and Dennis Ritchie at Bell Labs. Unix introduced revolutionary concepts like hierarchical file systems, pipes, and the philosophy of "do one thing and do it well" that shaped all modern operating systems.
@@ -19,10 +19,10 @@ The Unix operating system, created by Ken Thompson and Dennis Ritchie at Bell La
 1969
 
 # category
-Historical
+Computing History
 
 # language
-Assembly (later rewritten in C)
+Assembly
 
 # codeSnippet
 ```c

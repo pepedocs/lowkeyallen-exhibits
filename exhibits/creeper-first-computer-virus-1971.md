@@ -2,7 +2,7 @@
 creeper-first-computer-virus-1971
 
 # title
-First Computer Virus - Creeper (1971)
+First Computer Virus - Creeper
 
 # what
 The Creeper virus, created by Bob Thomas at BBN Technologies, was the first self-replicating computer program. It displayed the message "I'M THE CREEPER: CATCH ME IF YOU CAN" and moved between ARPANET computers.
@@ -18,7 +18,7 @@ The Creeper virus, created by Bob Thomas at BBN Technologies, was the first self
 1971
 
 # category
-Security
+Cyber Security
 
 # language
 Assembly

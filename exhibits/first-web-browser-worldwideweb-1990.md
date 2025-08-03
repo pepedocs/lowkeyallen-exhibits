@@ -2,7 +2,7 @@
 first-web-browser-worldwideweb-1990
 
 # title
-First Web Browser - WorldWideWeb (1990)
+First Web Browser - WorldWideWeb
 
 # what
 The first web browser, created by Tim Berners-Lee at CERN. Originally called "WorldWideWeb" (later renamed Nexus), it was both a browser and editor, allowing users to create and edit web pages directly within the browser.
@@ -22,7 +22,7 @@ The first web browser, created by Tim Berners-Lee at CERN. Originally called "Wo
 Integration
 
 # language
-Objective-C (NeXTSTEP)
+Objective-C
 
 # codeSnippet
 ```objective-c

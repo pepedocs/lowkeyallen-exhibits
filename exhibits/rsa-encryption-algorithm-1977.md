@@ -19,10 +19,10 @@ The RSA public-key cryptography algorithm, developed by Ron Rivest, Adi Shamir, 
 1977
 
 # category
-Security
+Cyber Security
 
 # language
-Mathematics/Pseudocode
+Mathematics
 
 # codeSnippet
 ```python

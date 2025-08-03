@@ -2,7 +2,7 @@
 sql-database-language-1974
 
 # title
-SQL Database Language (1974)
+SQL Database Language
 
 # what
 The Structured Query Language (SQL), originally developed by Donald Chamberlin and Raymond Boyce at IBM as part of the System R relational database project. SQL provided the first practical way to query relational databases using English-like statements.

@@ -2,7 +2,7 @@
 first-email-sent-1971
 
 # title
-First Email Sent (1971)
+First Email Sent
 
 # what
 Ray Tomlinson sent the first network email between two computers on ARPANET, using the @ symbol to separate the user name from the host name. This simple innovation created the addressing system still used in email today.
@@ -22,7 +22,7 @@ Ray Tomlinson sent the first network email between two computers on ARPANET, usi
 Integration
 
 # language
-Assembly/SNDMSG Program
+Assembly
 
 # codeSnippet
 ```assembly

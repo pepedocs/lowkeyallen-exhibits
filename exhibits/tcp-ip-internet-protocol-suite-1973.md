@@ -2,7 +2,7 @@
 tcp-ip-internet-protocol-suite-1973
 
 # title
-TCP/IP Internet Protocol Suite (1973)
+TCP/IP Internet Protocol Suite
 
 # what
 The Transmission Control Protocol/Internet Protocol (TCP/IP), developed by Vint Cerf and Bob Kahn. This protocol suite became the foundation of the modern internet, enabling different networks to interconnect and communicate regardless of their underlying hardware.
@@ -16,13 +16,13 @@ The Transmission Control Protocol/Internet Protocol (TCP/IP), developed by Vint 
 - Remains the core protocol suite of the internet after 50+ years
 
 # when
-1973-1974
+1973
 
 # category
 Integration
 
 # language
-C/Assembly (protocol specifications)
+C
 
 # codeSnippet
 ```c

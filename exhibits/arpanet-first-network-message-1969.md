@@ -2,7 +2,7 @@
 arpanet-first-network-message-1969
 
 # title
-ARPANET First Network Message (1969)
+ARPANET First Network Message
 
 # what
 The first message sent over ARPANET, the predecessor to the internet, transmitted between UCLA and Stanford Research Institute. The intended message was "LOGIN" but the system crashed after "LO", making the first internet message an unintentional "LO".
@@ -16,13 +16,13 @@ The first message sent over ARPANET, the predecessor to the internet, transmitte
 - Made possible the global connected world we live in today
 
 # when
-October 29, 1969, 10:30 PM
+1969
 
 # category
 Integration
 
 # language
-Assembly/Network Protocol
+Assembly
 
 # codeSnippet
 ```assembly

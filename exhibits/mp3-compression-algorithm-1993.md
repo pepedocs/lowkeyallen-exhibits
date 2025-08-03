@@ -2,7 +2,7 @@
 mp3-compression-algorithm-1993
 
 # title
-MP3 Compression Algorithm (1993)
+MP3 Compression Algorithm
 
 # what
 The MP3 audio compression algorithm, developed by the Fraunhofer Institute in Germany. This revolutionary codec could compress CD-quality audio by a factor of 10-12 while maintaining acceptable quality, making digital music distribution practical over early internet connections.
@@ -19,7 +19,7 @@ The MP3 audio compression algorithm, developed by the Fraunhofer Institute in Ge
 1993
 
 # category
-Numeric
+Computing History
 
 # language
 C

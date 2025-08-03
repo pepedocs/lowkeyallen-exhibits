@@ -21,7 +21,7 @@ The original PageRank algorithm developed by Larry Page and Sergey Brin at Stanf
 Integration
 
 # language
-Mathematical/Pseudocode
+Mathematical
 
 # codeSnippet
 ```python

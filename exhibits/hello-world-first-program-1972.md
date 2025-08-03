@@ -2,7 +2,7 @@
 hello-world-first-program-1972
 
 # title
-Hello World - The First Program (1972)
+Hello World - The First Program
 
 # what
 The first "Hello, World!" program, created by Brian Kernighan at Bell Labs in 1972. This simple program became the traditional first step for every programmer learning a new language.
@@ -14,7 +14,7 @@ Became the universal first program for learning any programming language, making
 1972
 
 # category
-Historical
+Computing History
 
 # language
 C
