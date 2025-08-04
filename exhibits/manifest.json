@@ -1,9 +1,34 @@
 {
   "exhibits": [
-    "hello-world-first-c-program",
-    "unix-hello-world-1969",
-    "first-html-webpage-1991",
     "apollo-11-guidance-computer",
-    "leo-first-business-computer-1951"
+    "arpanet-first-message-1969",
+    "arpanet-first-network-message-1969",
+    "bitcoin-genesis-block-2009",
+    "creeper-first-computer-virus-1971",
+    "deep-blue-chess-1997",
+    "deep-blue-chess-victory-1997",
+    "eliza-chatbot-1966",
+    "first-computer-bug-grace-hopper-1947",
+    "first-email-sent-1971",
+    "first-html-webpage-1991",
+    "first-web-browser-worldwideweb-1990",
+    "git-version-control-system-2005",
+    "google-pagerank-algorithm-1996",
+    "hello-world-first-c-program",
+    "hello-world-first-program-1972",
+    "javascript-programming-language-1995",
+    "jpeg-image-compression-1992",
+    "leo-first-business-computer-1951",
+    "linux-kernel-first-version-1991",
+    "morris-worm-1988",
+    "mp3-compression-algorithm-1993",
+    "pagerank-algorithm-1996",
+    "rsa-encryption-algorithm-1977",
+    "sql-database-language-1974",
+    "stuxnet-cyberwarfare-weapon-2010",
+    "stuxnet-malware-2010",
+    "tcp-ip-internet-protocol-suite-1973",
+    "unix-hello-world-1969",
+    "unix-operating-system-1969"
   ]
 }
